@@ -5,5 +5,9 @@ class Hello
 		MemberDAO dao=new MemberDAO();
 		dao.insert();
 		dao.update();
+
+		DeptDAO ddao=new DeptDAO();
+		ddao.insert();
+		ddao.update();
 	}
 }
